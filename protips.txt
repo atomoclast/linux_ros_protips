@@ -1,0 +1,3 @@
+Change all of the file extensions in a folder: rename 's/\.html$/\.txt/' *.html
+
+rosdep install --from-paths <PATH> -i -y
