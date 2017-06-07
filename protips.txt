@@ -1,3 +1,6 @@
 Change all of the file extensions in a folder: rename 's/\.html$/\.txt/' *.html
 
 rosdep install --from-paths <PATH> -i -y
+
+Sublime Text, Open files in current window: 	
+  "open_files_in_new_window": false
