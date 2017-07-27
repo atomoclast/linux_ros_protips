@@ -4,3 +4,10 @@ rosdep install --from-paths <PATH> -i -y
 
 Sublime Text, Open files in current window: 	
   "open_files_in_new_window": false
+  
+To use `locate` on linux, run: 
+sudo updatedb
+
+and then 
+
+locate
