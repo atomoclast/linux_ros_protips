@@ -11,3 +11,22 @@ sudo updatedb
 and then 
 
 locate
+
+
+copy into .bashrc: 
+
+function cb() {
+	catkin build $1
+}
+
+function ct() {
+	catkin run_tests --no-deps $1 && catkin test --no-deps $1
+}
+
+function ccov() {
+	catkin build --no-deps $1 -DCMAKE_BUILD_TYPE=Coverage --make-args run_coverage_$1
+}
+
+function cfor() {
+	catkin build --no-deps $1 --make-args format_code_$1
+}
